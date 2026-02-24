@@ -96,5 +96,21 @@ streamlit run main.py
 
 ---
 
-**Would you like me to add a specific section for Environment Variables or detailed contribution guidelines?**
+## 🔑 Environment Variables
+
+To run this project locally, you will need to add the following variables to your `.env` file:
+
+```env
+# Google Gemini API Key
+GOOGLE_API_KEY=your_gemini_api_key_here
+
+# LangSmith Observability (Optional but recommended)
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_ENDPOINT="[https://api.smith.langchain.com](https://api.smith.langchain.com)"
+LANGCHAIN_API_KEY=your_langsmith_api_key_here
+LANGCHAIN_PROJECT="ai-blog-writing-system"
+
+# Search Tool API (e.g., Tavily or Serper if used by Research Node)
+TAVILY_API_KEY=your_search_api_key_here
+
 
