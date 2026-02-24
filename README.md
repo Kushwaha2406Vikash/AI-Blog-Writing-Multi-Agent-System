@@ -74,14 +74,14 @@ cd AI-Blog-Writing-Multi-Agent-System
 
 2. **Install dependencies**:
 ```bash
-pip install -r requirements.txt
+pip install toml
 
 ```
 
 
 3. **Run the application**:
 ```bash
-streamlit run app.py
+streamlit run main.py
 
 ```
 
@@ -97,3 +97,4 @@ streamlit run app.py
 ---
 
 **Would you like me to add a specific section for Environment Variables or detailed contribution guidelines?**
+
